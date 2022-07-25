@@ -7,4 +7,7 @@ A (probably) multi-platform ASCII snake game.
 ### Linux
 Just type `make` in the terminal.
 ### Windows
-Just copy and run the content of Makefile.
+Run `gcc src/main.c src/engine.c src/fruit.c src/snake.c --no-warnings -o snake`
+
+## How to play?
+Use WASD instead of arrow keys.
